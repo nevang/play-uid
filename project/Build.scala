@@ -56,7 +56,7 @@ object UIDBuild extends Build {
     organizationName := "jkl",
     organizationHomepage := None,
     homepage <<= scmInfo ( _.map(_.browseUrl)),
-    licenses <<= homepage ( _.map( h => "Simplified BSD License" -> url(h + "/master/LICENSE")).toSeq),
+    licenses <<= homepage ( _.map( h => "Simplified BSD License" -> url(h + "/blob/master/LICENSE")).toSeq),
     Publish.developers :=developers)
 
   lazy val uid = Project(
