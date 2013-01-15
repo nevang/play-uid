@@ -12,7 +12,7 @@ lines in your sbt built:
 ```scala
 resolvers += Opts.resolver.sonatypeSnapshots
 
-libraryDependencies += "gr.jkl" %% "playUid" % "1.1.1-SNAPSHOT"
+libraryDependencies += "gr.jkl" %% "playuid" % "1.1.1-SNAPSHOT"
 ```
 
 Setup
